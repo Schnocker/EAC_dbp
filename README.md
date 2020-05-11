@@ -1,2 +1,2 @@
 # EAC Bypass
-A a simple EAC bypass used for debugging games.
+A simple EAC bypass used for debugging games.
