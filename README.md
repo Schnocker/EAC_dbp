@@ -1,2 +1,2 @@
-# EAC_dbp
-EAC Bypass
+# EAC Bypass
+An EAC bypass used for debugging games.
