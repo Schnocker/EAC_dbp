@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SignMode>ProductionSign</SignMode>
+    <ProductionCertificate>CN=上海渤窿投资管理有限公司, O=上海渤窿投资管理有限公司, L=shanghai, S=shanghai, C=CN | A29E53F93B6BB31BC26997449DBDE4E218217CB4</ProductionCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <SignMode>Off</SignMode>
+  </PropertyGroup>
+</Project>
