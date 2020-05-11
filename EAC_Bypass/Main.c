@@ -197,7 +197,7 @@ BOOLEAN RestoreMiniFilter()
 					if (pFltOperationRegistration->PreOperation == DummyObjectPreCallback)
 					{
 						pFltOperationRegistration->PreOperation = pFltOperationRegistration->PreOperation;
-						DbgPrint("[EAC_Bypass] BE Filter restored");
+						DbgPrint("[EAC_Bypass] EAC Filter restored");
 					}
 					pFltOperationRegistration = (PFLT_OPERATION_REGISTRATION)((PUCHAR)pFltOperationRegistration + sizeof(FLT_OPERATION_REGISTRATION));
 				}
